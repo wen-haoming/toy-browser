@@ -1,0 +1,28 @@
+{
+  "name": "toy-browser",
+  "version": "1.0.0",
+  "private":"true",
+  "description": "toy-browser",
+  "main": "index.js",
+  "workspaces":[
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wen-haoming/toy-browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wen-haoming/toy-browser/issues"
+  },
+  "homepage": "https://github.com/wen-haoming/toy-browser#readme",
+  "devDependencies": {
+    "@umijs/fabric": "^2.6.2",
+    "lerna": "^4.0.0"
+  }
+}
