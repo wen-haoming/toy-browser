@@ -8,7 +8,9 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --cache --ext .js,.jsx,.ts,.tsx  --fix --format=pretty ./packages && npm run lint:prettier",
+    "prettier": "prettier --write \"**/**.{js,jsx,tsx,ts,less,md,json}\"",
+    "lint:prettier": "npm run prettier &&  git diff && prettier --version && prettier --check \"./packages\" --end-of-line auto"
   },
   "repository": {
     "type": "git",

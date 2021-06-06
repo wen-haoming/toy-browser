@@ -1,0 +1,26 @@
+{
+  "name": "http-parser",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "wenhaoming <435203093@qq.com>",
+  "homepage": "https://github.com/wen-haoming/toy-browser/tree/main/packages/http-parser#readme",
+  "license": "ISC",
+  "main": "lib/http-parser.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wen-haoming/toy-browser.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wen-haoming/toy-browser/issues"
+  }
+}
